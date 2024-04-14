@@ -1,7 +1,7 @@
 function tocaSom(idElementoAudio) {
-
-    idElementoAudio.currentTime = 0;
-    document.querySelector(idElementoAudio).play();
+    const audio = document.querySelector(idElementoAudio);
+    audio.currentTime = 0.2;
+    audio.play();
 }
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
